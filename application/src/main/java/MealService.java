@@ -13,7 +13,7 @@ public class MealService {
         String[] inputSplitted = input.split(",");
 
         if (inputSplitted.length <= 0) {
-            throw new IllegalArgumentException("Input is not correct");
+            throw new IllegalArgumentException("Input was not correct");
         }
 
         Map<Integer, String> mealsPerPeriod = this.findMealsPerPeriod(inputSplitted[0]);

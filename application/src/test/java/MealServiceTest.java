@@ -71,4 +71,14 @@ public class MealServiceTest {
 
         assertEquals(expected, actual);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldThrowIllegalArgumentExceptionWhenPeriodWasNotExpected() {
+        mealService.detailMeal("potato");
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldThrowIllegalArgumentExceptionWhenInputIsEmpty() {
+        mealService.detailMeal("");
+    }
 }

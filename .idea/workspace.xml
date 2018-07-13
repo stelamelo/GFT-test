@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6ac3388a-182a-4138-b90a-2ef6915dbdb4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/script.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/application/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/src/test/java/MealServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/application/src/test/java/MealServiceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/application/.gradle/" />
@@ -64,8 +55,8 @@
       <file leaf-file-name="MealService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/src/main/java/MealService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+            <state relative-caret-position="255">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,29 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/script.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MealServiceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/src/test/java/MealServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+            <state relative-caret-position="473">
+              <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -559,7 +532,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Bash.script.sh">
+  <component name="RunManager" selected="JUnit.MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputIsEmpty">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -590,14 +563,6 @@
         <option name="vmOptions" value="" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="build" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="application" />
-      <setting name="path" value="file://$PROJECT_DIR$/application/build.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/application" />
-      <setting name="debug" value="false" />
-    </configuration>
     <configuration name="script (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
       <module name="application" />
       <setting name="path" value="file://$PROJECT_DIR$/application/script.gradle" />
@@ -606,13 +571,39 @@
       <setting name="workDir" value="file://$PROJECT_DIR$/application" />
       <setting name="debug" value="false" />
     </configuration>
-    <configuration name="script (2)" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="application" />
-      <setting name="path" value="file://$PROJECT_DIR$/application/script.gradle" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="file://$PROJECT_DIR$/application" />
-      <setting name="debug" value="false" />
+    <configuration name="MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MealServiceTest" />
+      <option name="METHOD_NAME" value="shouldThrowIllegalArgumentExceptionWhenInputIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputWasNotExpected" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="application_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MealServiceTest" />
+      <option name="METHOD_NAME" value="shouldThrowIllegalArgumentExceptionWhenInputWasNotExpected" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -653,19 +644,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Groovy.build" />
       <item itemvalue="Groovy.script (1)" />
-      <item itemvalue="Groovy.script (2)" />
       <item itemvalue="Gradle.application [help --task]" />
       <item itemvalue="Bash.script.sh" />
+      <item itemvalue="JUnit.MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputWasNotExpected" />
+      <item itemvalue="JUnit.MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputIsEmpty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputIsEmpty" />
+        <item itemvalue="JUnit.MealServiceTest.shouldThrowIllegalArgumentExceptionWhenInputWasNotExpected" />
         <item itemvalue="Bash.script.sh" />
         <item itemvalue="Groovy.script (1)" />
         <item itemvalue="Gradle.application [help --task]" />
-        <item itemvalue="Groovy.script (2)" />
-        <item itemvalue="Groovy.build" />
       </list>
     </recent_temporary>
   </component>
@@ -680,7 +671,7 @@
       <option name="presentableId" value="Default" />
       <updated>1531414845045</updated>
       <workItem from="1531414846858" duration="15627000" />
-      <workItem from="1531517616966" duration="1241000" />
+      <workItem from="1531517616966" duration="1579000" />
     </task>
     <servers />
   </component>
@@ -717,7 +708,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16868000" />
+    <option name="totallyTimeSpent" value="17206000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -733,7 +724,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32838285" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
@@ -923,16 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/src/main/java/MealService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="52" column="5" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -950,10 +931,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/src/main/java/MealService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/src/test/java/MealServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="67" column="43" selection-start-line="67" selection-start-column="43" selection-end-line="67" selection-end-column="43" />
+        <state relative-caret-position="473">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
